@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAHOK Games - Privacy Policy & Contact</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f8fafc;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #94a3b8;
+            border-radius: 6px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #64748b;
+        }
+        
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Rating stars */
+        .rating-star {
+            transition: all 0.3s ease;
+        }
+        .rating-star:hover {
+            transform: scale(1.3);
+        }
+        
+        /* Card hover effect */
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        /* Gradient animation */
+        .bg-gradient-animate {
+            background-size: 200% 200%;
+            animation: gradientAnimation 15s ease infinite;
+        }
+        
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#fdf2f8',
+                            100: '#fce7f3',
+                            200: '#fbcfe8',
+                            300: '#f9a8d4',
+                            400: '#f472b6',
+                            500: '#ec4899',
+                            600: '#db2777',
+                            700: '#be185d',
+                            800: '#9d174d',
+                            900: '#831843',
+                        },
+                        secondary: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            200: '#99f6e4',
+                            300: '#5eead4',
+                            400: '#2dd4bf',
+                            500: '#14b8a6',
+                            600: '#0d9488',
+                            700: '#0f766e',
+                            800: '#115e59',
+                            900: '#134e4a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800">
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="#" class="flex items-center space-x-3">
+                        <div class="w-8 h-8 bg-gradient-to-br from-primary-500 to-secondary-600 rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">K</span>
+                        </div>
+                        <span class="text-xl font-bold bg-gradient-to-r from-primary-600 to-secondary-500 bg-clip-text text-transparent">KAHOK Games</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#privacy" class="text-slate-600 hover:text-primary-600 transition duration-300 flex items-center text-sm font-medium">
+                        <i class="fas fa-shield-alt mr-2"></i> Privacy Policy
+                    </a>
+                    <a href="#contact" class="text-slate-600 hover:text-primary-600 transition duration-300 flex items-center text-sm font-medium">
+                        <i class="fas fa-envelope mr-2"></i> Contact Us
+                    </a>
+                    <a href="#support" class="text-slate-600 hover:text-primary-600 transition duration-300 flex items-center text-sm font-medium">
+                        <i class="fas fa-headset mr-2"></i> Support
+                    </a>
+                    <a href="#" class="bg-primary-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-primary-700 transition duration-300">
+                        <i class="fas fa-gamepad mr-2"></i> Game Center
+                    </a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button class="mobile-menu-button text-slate-700 focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div class="mobile-menu hidden md:hidden bg-white border-t border-slate-200">
+            <div class="px-4 pt-2 pb-3 space-y-1">
+                <a href="#privacy" class="block px-3 py-2 text-slate-700 hover:bg-primary-50 hover:text-primary-600 rounded-md text-sm font-medium">
+                    <i class="fas fa-shield-alt mr-2"></i> Privacy Policy
+                </a>
+                <a href="#contact" class="block px-3 py-2 text-slate-700 hover:bg-primary-50 hover:text-primary-600 rounded-md text-sm font-medium">
+                    <i class="fas fa-envelope mr-2"></i> Contact Us
+                </a>
+                <a href="#support" class="block px-3 py-2 text-slate-700 hover:bg-primary-50 hover:text-primary-600 rounded-md text-sm font-medium">
+                    <i class="fas fa-headset mr-2"></i> Support
+                </a>
+                <a href="#" class="block px-3 py-2 bg-primary-50 text-primary-600 rounded-md text-sm font-medium">
+                    <i class="fas fa-gamepad mr-2"></i> Game Center
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-gradient-to-br from-primary-600 to-secondary-700 bg-gradient-animate text-white py-24 relative overflow-hidden">
+        <div class="absolute inset-0 bg-pattern opacity-10"></div>
+        <div class="max-w-5xl mx-auto text-center px-4 sm:px-6 lg:px-8 relative z-10">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Welcome to KAHOK Games</h1>
+            <p class="text-xl md:text-2xl mb-10 text-primary-100">Your trusted partner for gaming and digital solutions</p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+                <a href="#privacy" class="bg-white text-primary-600 px-8 py-4 rounded-xl font-semibold hover:bg-primary-50 transition duration-300 shadow-lg">
+                    <i class="fas fa-shield-alt mr-2"></i> View Privacy Policy
+                </a>
+                <a href="#support" class="bg-transparent border-2 border-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-primary-600 transition duration-300">
+                    <i class="fas fa-comment-dots mr-2"></i> Provide Feedback
+                </a>
+            </div>
+        </div>
+        <!-- Decorative elements -->
+        <div class="hidden lg:block absolute -bottom-10 -left-10 w-40 h-40 bg-primary-500 rounded-full opacity-20"></div>
+        <div class="hidden lg:block absolute top-10 -right-10 w-32 h-32 bg-secondary-500 rounded-full opacity-20"></div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-5xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+        <!-- Features Section -->
+        <section class="mb-20">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl shadow-sm p-6 card-hover border border-slate-100">
+                    <div class="w-14 h-14 bg-primary-100 rounded-lg flex items-center justify-center mb-5">
+                        <i class="fas fa-shield-alt text-primary-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Security First</h3>
+                    <p class="text-slate-600">We prioritize your privacy and ensure your personal information is protected and handled with care.</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm p-6 card-hover border border-slate-100">
+                    <div class="w-14 h-14 bg-secondary-100 rounded-lg flex items-center justify-center mb-5">
+                        <i class="fas fa-envelope text-secondary-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Always Available</h3>
+                    <p class="text-slate-600">Our dedicated team is ready to respond to your inquiries and provide timely solutions to your needs.</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm p-6 card-hover border border-slate-100">
+                    <div class="w-14 h-14 bg-purple-100 rounded-lg flex items-center justify-center mb-5">
+                        <i class="fas fa-headset text-purple-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Full Support</h3>
+                    <p class="text-slate-600">We provide comprehensive technical support to ensure your experience remains smooth and enjoyable.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Privacy Policy Section -->
+        <section id="privacy" class="mb-16 bg-white rounded-xl shadow-md p-8 border border-slate-100">
+            <div class="flex items-center mb-6">
+                <div class="bg-primary-100 p-3 rounded-full mr-4">
+                    <i class="fas fa-shield-alt text-primary-600 text-xl"></i>
+                </div>
+                <h2 class="text-3xl font-bold text-slate-800">Privacy Policy</h2>
+            </div>
+            
+            <div class="prose max-w-none text-slate-600">
+                <p class="mb-4">
+                    My Apps respect your preferences concerning the treatment of features provided by mobile device that we
+                    may use. This Privacy Policy explains what kind of features we use. Please take a moment to familiarize
+                    yourself with our privacy practices.
+                </p>
+                <div class="bg-amber-50 border-l-4 border-amber-400 p-5 mb-6 rounded-r-lg">
+                    <p class="text-amber-700 text-sm">
+                        BY INSTALLING THE APPS ON YOUR MOBILE DEVICE, ENTERING INTO, CONNECTING TO, ACCESSING AND/OR USING THE
+                        APPS, YOU AGREE TO THE TERMS AND CONDITIONS SET FORTH IN THIS PRIVACY POLICY, INCLUDING TO THE POSSIBLE
+                        COLLECTION AND PROCESSING OF YOUR INFORMATION AND YOU ARE CONSENTING TO THE USE OF COOKIES AND OTHER
+                        TRACKING TECHNOLOGIES ON YOUR DEVICE. PLEASE NOTE: IF YOU OR, AS APPLICABLE, YOUR LEGAL GUARDIAN,
+                        DISAGREE TO ANY TERM PROVIDED HEREIN, YOU MAY NOT INSTALL, ACCESS AND/OR USE THE APPS AND YOU ARE
+                        REQUESTED TO PROMPTLY ERASE THEM, AND ANY PART THEREOF, FROM YOUR MOBILE DEVICE.
+                    </p>
+                </div>
+                <h3 class="text-xl font-semibold mt-8 mb-3 text-slate-800">Links to third-party websites and services</h3>
+                <p class="mb-4">
+                    The Apps may contain links to other websites and online services, including third-party advertisements.
+                    If you choose to click through to one of these other websites or online services, please note that any
+                    information you may provide will be subject to the privacy policy and other terms and conditions of that
+                    websites or service, and not to this Privacy Policy. We do not control third-party websites or services,
+                    and the fact that a link to such a website or service appears in the Apps does not mean that we endorse
+                    them or have approved their policies or practices relating to user information. Before providing any
+                    information to any third-party website or service, we encourage you to review the privacy policy and
+                    other terms and conditions of that website or service. You agree that we will have no liability for any
+                    matters relating to a third-party website or service that you provide information to, including their
+                    collection and handling of that information.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="mb-16 bg-white rounded-xl shadow-md p-8 border border-slate-100">
+            <div class="flex items-center mb-6">
+                <div class="bg-secondary-100 p-3 rounded-full mr-4">
+                    <i class="fas fa-envelope text-secondary-600 text-xl"></i>
+                </div>
+                <h2 class="text-3xl font-bold text-slate-800">Contact Us</h2>
+            </div>
+            
+            <div class="prose max-w-none text-slate-600">
+                <p class="mb-6">
+                    If you have any questions regarding privacy while using the Apps, or have questions about our practices,
+                    please contact us via email at:
+                </p>
+                <div class="bg-primary-50 border-l-4 border-primary-400 p-5 mb-6 rounded-r-lg flex items-center">
+                    <a href="mailto:summystudio@163.com" class="text-primary-600 hover:text-primary-800 font-medium flex items-center">
+                        <i class="fas fa-envelope mr-2 text-xl"></i> summystudio@163.com
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Support Feedback Section -->
+        <section id="support" class="bg-white rounded-xl shadow-md p-8 border border-slate-100">
+            <div class="flex items-center mb-6">
+                <div class="bg-purple-100 p-3 rounded-full mr-4">
+                    <i class="fas fa-headset text-purple-600 text-xl"></i>
+                </div>
+                <h2 class="text-3xl font-bold text-slate-800">Technical Support Feedback</h2>
+            </div>
+            
+            <p class="text-slate-600 mb-8">
+                We value your feedback! Please help us improve our service by sharing your experience with our technical support team.
+            </p>
+            
+            <form id="feedbackForm" class="bg-slate-50 p-8 rounded-xl">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                    <div>
+                        <label for="username" class="block text-slate-700 font-medium mb-2">
+                            <i class="fas fa-user text-primary-500 mr-2"></i> Your Name <span class="text-red-500">*</span>
+                        </label>
+                        <input type="text" id="username" name="username" 
+                               class="w-full px-4 py-3 border border-slate-200 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition duration-200"
+                               placeholder="Enter your name" required>
+                    </div>
+
+                    <div>
+                        <label for="email" class="block text-slate-700 font-medium mb-2">
+                            <i class="fas fa-envelope text-primary-500 mr-2"></i> Your Email <span class="text-red-500">*</span>
+                        </label>
+                        <input type="email" id="email" name="email" 
+                               class="w-full px-4 py-3 border border-slate-200 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition duration-200"
+                               placeholder="Enter your email address" required>
+                    </div>
+                </div>
+
+                <div class="mb-8">
+                    <label for="feedback" class="block text-slate-700 font-medium mb-2">
+                        <i class="fas fa-comment-dots text-primary-500 mr-2"></i> Your Feedback <span class="text-red-500">*</span>
+                    </label>
+                    <textarea id="feedback" name="feedback" rows="5"
+                              class="w-full px-4 py-3 border border-slate-200 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition duration-200"
+                              placeholder="Please describe your experience with our technical support. What went well? What could be improved?" required></textarea>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block text-slate-700 font-medium mb-3">
+                        <i class="fas fa-star text-primary-500 mr-2"></i> Rate Our Service <span class="text-red-500">*</span>
+                    </label>
+                    <div class="rating flex justify-between max-w-xs mx-auto bg-white p-3 rounded-full shadow-sm">
+                        <span class="rating-star text-3xl text-slate-300 cursor-pointer" title="Poor">★</span>
+                        <span class="rating-star text-3xl text-slate-300 cursor-pointer" title="Fair">★</span>
+                        <span class="rating-star text-3xl text-slate-300 cursor-pointer" title="Good">★</span>
+                        <span class="rating-star text-3xl text-slate-300 cursor-pointer" title="Very Good">★</span>
+                        <span class="rating-star text-3xl text-slate-300 cursor-pointer" title="Excellent">★</span>
+                    </div>
+                    <div class="flex justify-between text-xs text-slate-500 mt-3 max-w-xs mx-auto">
+                        <span>Poor</span>
+                        <span>Fair</span>
+                        <span>Good</span>
+                        <span>Very Good</span>
+                        <span>Excellent</span>
+                    </div>
+                </div>
+
+                <button type="submit" class="w-full bg-gradient-to-r from-primary-600 to-secondary-600 text-white py-4 px-6 rounded-xl font-semibold hover:from-primary-700 hover:to-secondary-700 transition duration-300 shadow-lg hover:shadow-xl flex items-center justify-center">
+                    <i class="fas fa-paper-plane mr-2"></i> Submit Feedback
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white py-12">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div class="w-8 h-8 bg-gradient-to-br from-primary-500 to-secondary-600 rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">K</span>
+                        </div>
+                        <span class="text-xl font-bold text-white">KAHOK Games</span>
+                    </div>
+                    <p class="text-slate-400 mb-4">Delivering high-quality gaming experiences and digital solutions</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-slate-400 hover:text-white transition duration-300">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-slate-400 hover:text-white transition duration-300">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="text-slate-400 hover:text-white transition duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li>
+                            <a href="#privacy" class="text-slate-400 hover:text-white transition duration-300 flex items-center">
+                                <i class="fas fa-chevron-right text-xs mr-2"></i> Privacy Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="text-slate-400 hover:text-white transition duration-300 flex items-center">
+                                <i class="fas fa-chevron-right text-xs mr-2"></i> Contact Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#support" class="text-slate-400 hover:text-white transition duration-300 flex items-center">
+                                <i class="fas fa-chevron-right text-xs mr-2"></i> Technical Support
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact Info</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope text-primary-500 mt-1 mr-3"></i>
+                            <a href="mailto:summystudio@163.com" class="text-slate-400 hover:text-white transition duration-300">
+                                summystudio@163.com
+                            </a>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-primary-500 mt-1 mr-3"></i>
+                            <span class="text-slate-400">Global</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-10 pt-8 border-t border-slate-800 text-center text-slate-500 text-sm">
+                <p>&copy; 2025 KAHOK Games. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Message -->
+    <div id="overlay" class="fixed inset-0 bg-slate-900 bg-opacity-60 backdrop-blur-sm z-50 hidden"></div>
+    <div id="successMessage" class="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-xl shadow-2xl z-50 p-8 max-w-sm text-center hidden">
+        <div class="bg-green-100 p-4 rounded-full inline-flex mb-4">
+            <i class="fas fa-check-circle text-green-600 text-4xl"></i>
+        </div>
+        <h3 class="text-2xl font-bold text-slate-800 mb-2">Thank you!</h3>
+        <p class="text-slate-600 mb-6">We appreciate your feedback and will use it to improve our service.</p>
+        <button onclick="hideSuccessMessage()" class="bg-primary-600 text-white px-6 py-2 rounded-lg hover:bg-primary-700 transition duration-300">
+            Close
+        </button>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="fixed bottom-8 right-8 bg-primary-600 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300 hover:bg-primary-700">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Rating system
+        const stars = document.querySelectorAll('.rating-star');
+        let rating = 0;
+        
+        stars.forEach((star, index) => {
+            star.addEventListener('click', () => {
+                rating = index + 1;
+                stars.forEach((s, i) => {
+                    s.style.color = i <= index ? '#F59E0B' : '#D1D5DB';
+                });
+            });
+        });
+
+        // Form submission
+        document.getElementById('feedbackForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const email = document.getElementById('email').value;
+            if (!email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
+                alert('Please enter a valid email address');
+                return;
+            }
+            
+            if (rating === 0) {
+                alert('Please rate our service by clicking the stars');
+                return;
+            }
+
+            showSuccessMessage();
+        });
+
+        function showSuccessMessage() {
+            const successMessage = document.getElementById('successMessage');
+            const overlay = document.getElementById('overlay');
+            successMessage.classList.remove('hidden');
+            overlay.classList.remove('hidden');
+            
+            // Reset form after showing message
+            document.getElementById('feedbackForm').reset();
+            stars.forEach(s => s.style.color = '#D1D5DB');
+            rating = 0;
+        }
+
+        function hideSuccessMessage() {
+            document.getElementById('successMessage').classList.add('hidden');
+            document.getElementById('overlay').classList.add('hidden');
+        }
+
+        // Mobile menu toggle
+        const mobileMenuButton = document.querySelector('.mobile-menu-button');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking a link
+        const mobileMenuLinks = document.querySelectorAll('.mobile-menu a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Back to top button
+        const backToTopButton = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.remove('opacity-0', 'invisible');
+                backToTopButton.classList.add('opacity-100', 'visible');
+            } else {
+                backToTopButton.classList.remove('opacity-100', 'visible');
+                backToTopButton.classList.add('opacity-0', 'invisible');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
